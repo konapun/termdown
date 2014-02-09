@@ -11,7 +11,7 @@
     "name": "Bremen Braun"
   },
   "bin": {
-    "termdown": "./bin/termdown.coffee"
+    "termdown": "./termdown.coffee"
   },
   "dependencies": {
     "ncurses": "~0.4.1",
