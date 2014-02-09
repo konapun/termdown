@@ -1,9 +1,9 @@
 ###
 Maps markdown symbols to their equivalents for curses
 ###
-exports.equivalents = 
-	header: 'TODO'
-	bulletlist: 'TODO'
+exports.symbols =
+	html: 'TODO'
+	p: 'TODO'
 	numberlist: 'TODO'
 	listitem: 'TODO'
 	para: 'TODO'
@@ -15,4 +15,7 @@ exports.equivalents =
 	link: 'TODO'
 	link_ref: 'TODO'
 	img_ref: 'TODO'
-	
+
+exports.isSymbol = (sym) ->
+		return sym in Object.keys(@symbols)
+
