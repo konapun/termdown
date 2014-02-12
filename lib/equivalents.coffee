@@ -1,21 +1,20 @@
 ###
-Maps markdown symbols to their equivalents for curses
+Maps markdown symbols to their ncurses actions to take
 ###
 exports.symbols =
-	html: 'TODO'
-	p: 'TODO'
-	numberlist: 'TODO'
-	listitem: 'TODO'
-	para: 'TODO'
-	markdown: 'TODO'
-	code_block: 'TODO'
-	inlinecode: 'TODO'
-	img: 'TODO'
-	linebreak: 'TODO'
-	link: 'TODO'
-	link_ref: 'TODO'
-	img_ref: 'TODO'
+	html: (inner, attr) ->
+		# TODO
+	p: (inner, attr) ->
+		# TODO
+	ul: (inner, attr) ->
+		# TODO
+	img: (inner, attr) ->
+		# TODO
+	br: ->
+		# TODO
+	a: (inner, attr) ->
+		# TODO
 
 exports.isSymbol = (sym) ->
-		return sym in Object.keys(@symbols)
+	return sym in Object.keys(@symbols)
 
